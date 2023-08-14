@@ -1,0 +1,12 @@
+11ea208146c1a373f830b1961abfa9e3
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _v = _interopRequireDefault(require("./v35.js"));
+var _sha = _interopRequireDefault(require("./sha1.js"));
+var v5 = (0, _v.default)('v5', 0x50, _sha.default);
+var _default = v5;
+exports.default = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJfdiIsIl9pbnRlcm9wUmVxdWlyZURlZmF1bHQiLCJyZXF1aXJlIiwiX3NoYSIsInY1IiwidjM1Iiwic2hhMSIsIl9kZWZhdWx0IiwiZXhwb3J0cyIsImRlZmF1bHQiXSwic291cmNlcyI6WyJ2NS5qcyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgdjM1IGZyb20gJy4vdjM1LmpzJztcbmltcG9ydCBzaGExIGZyb20gJy4vc2hhMS5qcyc7XG52YXIgdjUgPSB2MzUoJ3Y1JywgMHg1MCwgc2hhMSk7XG5leHBvcnQgZGVmYXVsdCB2NTsiXSwibWFwcGluZ3MiOiI7Ozs7O0FBQUEsSUFBQUEsRUFBQSxHQUFBQyxzQkFBQSxDQUFBQyxPQUFBO0FBQ0EsSUFBQUMsSUFBQSxHQUFBRixzQkFBQSxDQUFBQyxPQUFBO0FBQ0EsSUFBSUUsRUFBRSxHQUFHLElBQUFDLFVBQUcsRUFBQyxJQUFJLEVBQUUsSUFBSSxFQUFFQyxZQUFJLENBQUM7QUFBQyxJQUFBQyxRQUFBLEdBQ2hCSCxFQUFFO0FBQUFJLE9BQUEsQ0FBQUMsT0FBQSxHQUFBRixRQUFBIn0=

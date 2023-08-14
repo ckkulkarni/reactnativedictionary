@@ -1,0 +1,15 @@
+f276ac55d135e21e1cdab081fdb8aec9
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+var _expoModulesCore = require("expo-modules-core");
+var ExponentConstants;
+try {
+  ExponentConstants = (0, _expoModulesCore.requireNativeModule)('ExponentConstants');
+} catch (_unused) {}
+var _default = ExponentConstants;
+exports["default"] = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJfZXhwb01vZHVsZXNDb3JlIiwicmVxdWlyZSIsIkV4cG9uZW50Q29uc3RhbnRzIiwicmVxdWlyZU5hdGl2ZU1vZHVsZSIsIl91bnVzZWQiLCJfZGVmYXVsdCIsImV4cG9ydHMiXSwic291cmNlcyI6WyIuLi9zcmMvRXhwb25lbnRDb25zdGFudHMudHMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgcmVxdWlyZU5hdGl2ZU1vZHVsZSB9IGZyb20gJ2V4cG8tbW9kdWxlcy1jb3JlJztcblxubGV0IEV4cG9uZW50Q29uc3RhbnRzO1xudHJ5IHtcbiAgRXhwb25lbnRDb25zdGFudHMgPSByZXF1aXJlTmF0aXZlTW9kdWxlKCdFeHBvbmVudENvbnN0YW50cycpO1xufSBjYXRjaCB7fVxuZXhwb3J0IGRlZmF1bHQgRXhwb25lbnRDb25zdGFudHM7XG4iXSwibWFwcGluZ3MiOiI7Ozs7OztBQUFBLElBQUFBLGdCQUFBLEdBQUFDLE9BQUE7QUFFQSxJQUFJQyxpQkFBaUI7QUFDckIsSUFBSTtFQUNGQSxpQkFBaUIsR0FBRyxJQUFBQyxvQ0FBbUIsRUFBQyxtQkFBbUIsQ0FBQztDQUM3RCxDQUFDLE9BQUFDLE9BQUEsRUFBTTtBQUFFLElBQUFDLFFBQUEsR0FDS0gsaUJBQWlCO0FBQUFJLE9BQUEsY0FBQUQsUUFBQSJ9

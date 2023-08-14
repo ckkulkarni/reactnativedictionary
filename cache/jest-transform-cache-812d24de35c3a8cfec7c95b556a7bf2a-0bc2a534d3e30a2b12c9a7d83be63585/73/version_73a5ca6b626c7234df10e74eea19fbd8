@@ -1,0 +1,16 @@
+56cf8ec70a79fae82e940b580f4391db
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _validate = _interopRequireDefault(require("./validate.js"));
+function version(uuid) {
+  if (!(0, _validate.default)(uuid)) {
+    throw TypeError('Invalid UUID');
+  }
+  return parseInt(uuid.substr(14, 1), 16);
+}
+var _default = version;
+exports.default = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJfdmFsaWRhdGUiLCJfaW50ZXJvcFJlcXVpcmVEZWZhdWx0IiwicmVxdWlyZSIsInZlcnNpb24iLCJ1dWlkIiwidmFsaWRhdGUiLCJUeXBlRXJyb3IiLCJwYXJzZUludCIsInN1YnN0ciIsIl9kZWZhdWx0IiwiZXhwb3J0cyIsImRlZmF1bHQiXSwic291cmNlcyI6WyJ2ZXJzaW9uLmpzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB2YWxpZGF0ZSBmcm9tICcuL3ZhbGlkYXRlLmpzJztcblxuZnVuY3Rpb24gdmVyc2lvbih1dWlkKSB7XG4gIGlmICghdmFsaWRhdGUodXVpZCkpIHtcbiAgICB0aHJvdyBUeXBlRXJyb3IoJ0ludmFsaWQgVVVJRCcpO1xuICB9XG5cbiAgcmV0dXJuIHBhcnNlSW50KHV1aWQuc3Vic3RyKDE0LCAxKSwgMTYpO1xufVxuXG5leHBvcnQgZGVmYXVsdCB2ZXJzaW9uOyJdLCJtYXBwaW5ncyI6Ijs7Ozs7QUFBQSxJQUFBQSxTQUFBLEdBQUFDLHNCQUFBLENBQUFDLE9BQUE7QUFFQSxTQUFTQyxPQUFPQSxDQUFDQyxJQUFJLEVBQUU7RUFDckIsSUFBSSxDQUFDLElBQUFDLGlCQUFRLEVBQUNELElBQUksQ0FBQyxFQUFFO0lBQ25CLE1BQU1FLFNBQVMsQ0FBQyxjQUFjLENBQUM7RUFDakM7RUFFQSxPQUFPQyxRQUFRLENBQUNILElBQUksQ0FBQ0ksTUFBTSxDQUFDLEVBQUUsRUFBRSxDQUFDLENBQUMsRUFBRSxFQUFFLENBQUM7QUFDekM7QUFBQyxJQUFBQyxRQUFBLEdBRWNOLE9BQU87QUFBQU8sT0FBQSxDQUFBQyxPQUFBLEdBQUFGLFFBQUEifQ==

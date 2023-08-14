@@ -1,0 +1,12 @@
+0342b3bfabc9a49472b330c8c55d6406
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+Object.defineProperty(exports, "default", {
+  enumerable: true,
+  get: function get() {
+    return _reactNative.DeviceEventEmitter;
+  }
+});
+var _reactNative = require("react-native");
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJfcmVhY3ROYXRpdmUiLCJyZXF1aXJlIl0sInNvdXJjZXMiOlsiLi4vc3JjL1N5bnRoZXRpY1BsYXRmb3JtRW1pdHRlci50cyJdLCJzb3VyY2VzQ29udGVudCI6WyIvKipcbiAqIFRoaXMgZW1pdHRlciBpcyB1c2VkIGZvciBzZW5kaW5nIHN5bnRoZXRpYyBuYXRpdmUgZXZlbnRzIHRvIGxpc3RlbmVyc1xuICogcmVnaXN0ZXJlZCBpbiB0aGUgQVBJIGxheWVyIHdpdGggYE5hdGl2ZUV2ZW50RW1pdHRlcmAuXG4gKi9cbmV4cG9ydCB7IERldmljZUV2ZW50RW1pdHRlciBhcyBkZWZhdWx0IH0gZnJvbSAncmVhY3QtbmF0aXZlJztcbiJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7O0FBSUEsSUFBQUEsWUFBQSxHQUFBQyxPQUFBIn0=

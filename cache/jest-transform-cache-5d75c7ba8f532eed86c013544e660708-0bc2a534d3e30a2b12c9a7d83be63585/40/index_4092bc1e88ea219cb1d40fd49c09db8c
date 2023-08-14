@@ -1,0 +1,133 @@
+d9f7238ad9446c25ae682741e058f271
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var _exportNames = {
+  RCTDeviceEventEmitter: true,
+  DeviceEventEmitter: true,
+  EventEmitter: true,
+  NativeModulesProxy: true,
+  requireNativeViewManager: true,
+  Platform: true,
+  SyntheticPlatformEmitter: true,
+  CodedError: true,
+  UnavailabilityError: true,
+  deprecate: true
+};
+Object.defineProperty(exports, "CodedError", {
+  enumerable: true,
+  get: function get() {
+    return _CodedError.CodedError;
+  }
+});
+Object.defineProperty(exports, "DeviceEventEmitter", {
+  enumerable: true,
+  get: function get() {
+    return _reactNative.DeviceEventEmitter;
+  }
+});
+Object.defineProperty(exports, "EventEmitter", {
+  enumerable: true,
+  get: function get() {
+    return _EventEmitter.EventEmitter;
+  }
+});
+Object.defineProperty(exports, "NativeModulesProxy", {
+  enumerable: true,
+  get: function get() {
+    return _NativeModulesProxy.default;
+  }
+});
+Object.defineProperty(exports, "Platform", {
+  enumerable: true,
+  get: function get() {
+    return _Platform.default;
+  }
+});
+exports.RCTDeviceEventEmitter = void 0;
+Object.defineProperty(exports, "SyntheticPlatformEmitter", {
+  enumerable: true,
+  get: function get() {
+    return _SyntheticPlatformEmitter.default;
+  }
+});
+Object.defineProperty(exports, "UnavailabilityError", {
+  enumerable: true,
+  get: function get() {
+    return _UnavailabilityError.UnavailabilityError;
+  }
+});
+Object.defineProperty(exports, "deprecate", {
+  enumerable: true,
+  get: function get() {
+    return _deprecate.default;
+  }
+});
+Object.defineProperty(exports, "requireNativeViewManager", {
+  enumerable: true,
+  get: function get() {
+    return _NativeViewManagerAdapter.requireNativeViewManager;
+  }
+});
+var _reactNative = require("react-native");
+var _EventEmitter = require("./EventEmitter");
+var _NativeModulesProxy = _interopRequireDefault(require("./NativeModulesProxy"));
+var _NativeViewManagerAdapter = require("./NativeViewManagerAdapter");
+var _Platform = _interopRequireDefault(require("./Platform"));
+var _SyntheticPlatformEmitter = _interopRequireDefault(require("./SyntheticPlatformEmitter"));
+var _CodedError = require("./errors/CodedError");
+var _UnavailabilityError = require("./errors/UnavailabilityError");
+require("./sweet/setUpErrorManager.fx");
+var _deprecate = _interopRequireDefault(require("./deprecate"));
+var _requireNativeModule = require("./requireNativeModule");
+Object.keys(_requireNativeModule).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _requireNativeModule[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function get() {
+      return _requireNativeModule[key];
+    }
+  });
+});
+var _TypedArrays = require("./TypedArrays.types");
+Object.keys(_TypedArrays).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _TypedArrays[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function get() {
+      return _TypedArrays[key];
+    }
+  });
+});
+var _PermissionsInterface = require("./PermissionsInterface");
+Object.keys(_PermissionsInterface).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _PermissionsInterface[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function get() {
+      return _PermissionsInterface[key];
+    }
+  });
+});
+var _PermissionsHook = require("./PermissionsHook");
+Object.keys(_PermissionsHook).forEach(function (key) {
+  if (key === "default" || key === "__esModule") return;
+  if (Object.prototype.hasOwnProperty.call(_exportNames, key)) return;
+  if (key in exports && exports[key] === _PermissionsHook[key]) return;
+  Object.defineProperty(exports, key, {
+    enumerable: true,
+    get: function get() {
+      return _PermissionsHook[key];
+    }
+  });
+});
+var RCTDeviceEventEmitter = _reactNative.DeviceEventEmitter;
+exports.RCTDeviceEventEmitter = RCTDeviceEventEmitter;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJfcmVhY3ROYXRpdmUiLCJyZXF1aXJlIiwiX0V2ZW50RW1pdHRlciIsIl9OYXRpdmVNb2R1bGVzUHJveHkiLCJfaW50ZXJvcFJlcXVpcmVEZWZhdWx0IiwiX05hdGl2ZVZpZXdNYW5hZ2VyQWRhcHRlciIsIl9QbGF0Zm9ybSIsIl9TeW50aGV0aWNQbGF0Zm9ybUVtaXR0ZXIiLCJfQ29kZWRFcnJvciIsIl9VbmF2YWlsYWJpbGl0eUVycm9yIiwiX2RlcHJlY2F0ZSIsIl9yZXF1aXJlTmF0aXZlTW9kdWxlIiwiT2JqZWN0Iiwia2V5cyIsImZvckVhY2giLCJrZXkiLCJwcm90b3R5cGUiLCJoYXNPd25Qcm9wZXJ0eSIsImNhbGwiLCJfZXhwb3J0TmFtZXMiLCJleHBvcnRzIiwiZGVmaW5lUHJvcGVydHkiLCJlbnVtZXJhYmxlIiwiZ2V0IiwiX1R5cGVkQXJyYXlzIiwiX1Blcm1pc3Npb25zSW50ZXJmYWNlIiwiX1Blcm1pc3Npb25zSG9vayIsIlJDVERldmljZUV2ZW50RW1pdHRlciIsIkRldmljZUV2ZW50RW1pdHRlciJdLCJzb3VyY2VzIjpbIi4uL3NyYy9pbmRleC50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBEZXZpY2VFdmVudEVtaXR0ZXIgfSBmcm9tICdyZWFjdC1uYXRpdmUnO1xuXG5pbXBvcnQgeyBFdmVudEVtaXR0ZXIsIFN1YnNjcmlwdGlvbiB9IGZyb20gJy4vRXZlbnRFbWl0dGVyJztcbmltcG9ydCBOYXRpdmVNb2R1bGVzUHJveHkgZnJvbSAnLi9OYXRpdmVNb2R1bGVzUHJveHknO1xuaW1wb3J0IHsgUHJveHlOYXRpdmVNb2R1bGUgfSBmcm9tICcuL05hdGl2ZU1vZHVsZXNQcm94eS50eXBlcyc7XG5pbXBvcnQgeyByZXF1aXJlTmF0aXZlVmlld01hbmFnZXIgfSBmcm9tICcuL05hdGl2ZVZpZXdNYW5hZ2VyQWRhcHRlcic7XG5pbXBvcnQgUGxhdGZvcm0gZnJvbSAnLi9QbGF0Zm9ybSc7XG5pbXBvcnQgU3ludGhldGljUGxhdGZvcm1FbWl0dGVyIGZyb20gJy4vU3ludGhldGljUGxhdGZvcm1FbWl0dGVyJztcbmltcG9ydCB7IENvZGVkRXJyb3IgfSBmcm9tICcuL2Vycm9ycy9Db2RlZEVycm9yJztcbmltcG9ydCB7IFVuYXZhaWxhYmlsaXR5RXJyb3IgfSBmcm9tICcuL2Vycm9ycy9VbmF2YWlsYWJpbGl0eUVycm9yJztcblxuaW1wb3J0ICcuL3N3ZWV0L3NldFVwRXJyb3JNYW5hZ2VyLmZ4JztcblxuZXhwb3J0IHsgZGVmYXVsdCBhcyBkZXByZWNhdGUgfSBmcm9tICcuL2RlcHJlY2F0ZSc7XG5cbmV4cG9ydCB7XG4gIERldmljZUV2ZW50RW1pdHRlcixcbiAgRXZlbnRFbWl0dGVyLFxuICBOYXRpdmVNb2R1bGVzUHJveHksXG4gIFByb3h5TmF0aXZlTW9kdWxlLFxuICBQbGF0Zm9ybSxcbiAgU3Vic2NyaXB0aW9uLFxuICBTeW50aGV0aWNQbGF0Zm9ybUVtaXR0ZXIsXG4gIHJlcXVpcmVOYXRpdmVWaWV3TWFuYWdlcixcbiAgLy8gRXJyb3JzXG4gIENvZGVkRXJyb3IsXG4gIFVuYXZhaWxhYmlsaXR5RXJyb3IsXG59O1xuXG5leHBvcnQgKiBmcm9tICcuL3JlcXVpcmVOYXRpdmVNb2R1bGUnO1xuZXhwb3J0ICogZnJvbSAnLi9UeXBlZEFycmF5cy50eXBlcyc7XG5cbi8qKlxuICogQGRlcHJlY2F0ZWQgcmVuYW1lZCB0byBgRGV2aWNlRXZlbnRFbWl0dGVyYFxuICovXG5leHBvcnQgY29uc3QgUkNURGV2aWNlRXZlbnRFbWl0dGVyID0gRGV2aWNlRXZlbnRFbWl0dGVyO1xuXG5leHBvcnQgKiBmcm9tICcuL1Blcm1pc3Npb25zSW50ZXJmYWNlJztcbmV4cG9ydCAqIGZyb20gJy4vUGVybWlzc2lvbnNIb29rJztcbiJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQSxJQUFBQSxZQUFBLEdBQUFDLE9BQUE7QUFFQSxJ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

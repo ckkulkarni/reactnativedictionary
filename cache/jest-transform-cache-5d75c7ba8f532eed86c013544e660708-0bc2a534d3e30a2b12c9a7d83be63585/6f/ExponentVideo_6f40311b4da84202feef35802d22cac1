@@ -1,0 +1,9 @@
+93925bac11c6ed1b49d631a0c61ac7e6
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _expoModulesCore = require("expo-modules-core");
+var _default = (0, _expoModulesCore.requireNativeViewManager)('ExpoVideoView');
+exports.default = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJfZXhwb01vZHVsZXNDb3JlIiwicmVxdWlyZSIsIl9kZWZhdWx0IiwicmVxdWlyZU5hdGl2ZVZpZXdNYW5hZ2VyIiwiZXhwb3J0cyIsImRlZmF1bHQiXSwic291cmNlcyI6WyIuLi9zcmMvRXhwb25lbnRWaWRlby50c3giXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgcmVxdWlyZU5hdGl2ZVZpZXdNYW5hZ2VyIH0gZnJvbSAnZXhwby1tb2R1bGVzLWNvcmUnO1xuXG5leHBvcnQgZGVmYXVsdCByZXF1aXJlTmF0aXZlVmlld01hbmFnZXIoJ0V4cG9WaWRlb1ZpZXcnKTtcbiJdLCJtYXBwaW5ncyI6Ijs7OztBQUFBLElBQUFBLGdCQUFBLEdBQUFDLE9BQUE7QUFBNkQsSUFBQUMsUUFBQSxHQUU5QyxJQUFBQyx5Q0FBd0IsRUFBQyxlQUFlLENBQUM7QUFBQUMsT0FBQSxDQUFBQyxPQUFBLEdBQUFILFFBQUEifQ==

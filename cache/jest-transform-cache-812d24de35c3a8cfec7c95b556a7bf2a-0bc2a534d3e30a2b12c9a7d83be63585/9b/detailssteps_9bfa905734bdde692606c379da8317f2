@@ -1,0 +1,34 @@
+54554219f617a035404957e4c7e4c97a
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+var _native = require("@react-navigation/native");
+var _reactNative = require("@testing-library/react-native");
+var _jestCucumber = require("jest-cucumber");
+require("react-native-get-random-values");
+var _Details = _interopRequireDefault(require("../../Details"));
+var _jsxRuntime = require("react/jsx-runtime");
+var navigation = (0, _native.useNavigation)();
+var feature = (0, _jestCucumber.loadFeature)("Apps/features/details.feature");
+(0, _jestCucumber.defineFeature)(feature, function (test) {
+  test("User views word details with phonetics and meanings", function (_ref) {
+    var given = _ref.given,
+      when = _ref.when,
+      then = _ref.then,
+      and = _ref.and;
+    var screen = (0, _reactNative.render)((0, _jsxRuntime.jsx)(_Details["default"], {
+      route: {
+        params: {
+          word: {
+            word: "Example"
+          }
+        }
+      }
+    }));
+    given("The user is on the Details page", function () {
+      expect(screen).toBeDefined();
+      expect(screen.getByText("Example"));
+    });
+  });
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJfbmF0aXZlIiwicmVxdWlyZSIsIl9yZWFjdE5hdGl2ZSIsIl9qZXN0Q3VjdW1iZXIiLCJfRGV0YWlscyIsIl9pbnRlcm9wUmVxdWlyZURlZmF1bHQiLCJfanN4UnVudGltZSIsIm5hdmlnYXRpb24iLCJ1c2VOYXZpZ2F0aW9uIiwiZmVhdHVyZSIsImxvYWRGZWF0dXJlIiwiZGVmaW5lRmVhdHVyZSIsInRlc3QiLCJfcmVmIiwiZ2l2ZW4iLCJ3aGVuIiwidGhlbiIsImFuZCIsInNjcmVlbiIsInJlbmRlciIsImpzeCIsInJvdXRlIiwicGFyYW1zIiwid29yZCIsImV4cGVjdCIsInRvQmVEZWZpbmVkIiwiZ2V0QnlUZXh0Il0sInNvdXJjZXMiOlsiZGV0YWlscy5zdGVwcy50c3giXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgdXNlTmF2aWdhdGlvbiB9IGZyb20gXCJAcmVhY3QtbmF2aWdhdGlvbi9uYXRpdmVcIjtcclxuaW1wb3J0IHsgTmF0aXZlU3RhY2tOYXZpZ2F0aW9uUHJvcCB9IGZyb20gXCJAcmVhY3QtbmF2aWdhdGlvbi9uYXRpdmUtc3RhY2tcIjtcclxuaW1wb3J0IHsgcmVuZGVyLCBmaXJlRXZlbnQsIHdhaXRGb3IgfSBmcm9tIFwiQHRlc3RpbmctbGlicmFyeS9yZWFjdC1uYXRpdmVcIjtcclxuaW1wb3J0IHsgbG9hZEZlYXR1cmUsIGRlZmluZUZlYXR1cmUgfSBmcm9tIFwiamVzdC1jdWN1bWJlclwiO1xyXG5pbXBvcnQgXCJyZWFjdC1uYXRpdmUtZ2V0LXJhbmRvbS12YWx1ZXNcIjtcclxuaW1wb3J0IHsgdjQgYXMgdXVpZHY0IH0gZnJvbSBcInV1aWRcIjtcclxuaW1wb3J0IGF4aW9zIGZyb20gXCJheGlvc1wiO1xyXG5pbXBvcnQgRGV0YWlscyBmcm9tIFwiLi4vLi4vRGV0YWlsc1wiO1xyXG5jb25zdCBuYXZpZ2F0aW9uID0gdXNlTmF2aWdhdGlvbjxOYXRpdmVTdGFja05hdmlnYXRpb25Qcm9wPGFueT4+KCk7XHJcbmltcG9ydCB7IERldmljZUV2ZW50RW1pdHRlciB9IGZyb20gXCJyZWFjdC1uYXRpdmVcIjtcclxuY29uc3QgZmVhdHVyZSA9IGxvYWRGZWF0dXJlKFwiQXBwcy9mZWF0dXJlcy9kZXRhaWxzLmZlYXR1cmVcIik7XHJcbmRlZmluZUZlYXR1cmUoZmVhdHVyZSwgKHRlc3QpID0+IHtcclxuICB0ZXN0KFwiVXNlciB2aWV3cyB3b3JkIGRldGFpbHMgd2l0aCBwaG9uZXRpY3MgYW5kIG1lYW5pbmdzXCIsICh7XHJcbiAgICBnaXZlbixcclxuICAgIHdoZW4sXHJcbiAgICB0aGVuLFxyXG4gICAgYW5kLFxyXG4gIH0pID0+IHtcclxuICAgIGNvbnN0IHNjcmVlbiA9IHJlbmRlcihcclxuICAgICAgPERldGFpbHMgcm91dGU9e3sgcGFyYW1zOiB7IHdvcmQ6IHsgd29yZDogXCJFeGFtcGxlXCIgfSB9IH19IC8+XHJcbiAgICApO1xyXG4gICAgZ2l2ZW4oXCJUaGUgdXNlciBpcyBvbiB0aGUgRGV0YWlscyBwYWdlXCIsICgpID0+IHtcclxuICAgICAgZXhwZWN0KHNjcmVlbikudG9CZURlZmluZWQoKTtcclxuICAgICAgZXhwZWN0KHNjcmVlbi5nZXRCeVRleHQoXCJFeGFtcGxlXCIpKTtcclxuICAgIH0pO1xyXG4gIH0pO1xyXG59KTtcclxuIl0sIm1hcHBpbmdzIjoiOzs7QUFBQSxJQUFBQSxPQUFBLEdBQUFDLE9BQUE7QUFFQSxJQUFBQyxZQUFBLEdBQUFELE9BQUE7QUFDQSxJQUFBRSxhQUFBLEdBQUFGLE9BQUE7QUFDQUEsT0FBQTtBQUdBLElBQUFHLFFBQUEsR0FBQUMsc0JBQUEsQ0FBQUosT0FBQTtBQUFvQyxJQUFBSyxXQUFBLEdBQUFMLE9BQUE7QUFDcEMsSUFBTU0sVUFBVSxHQUFHLElBQUFDLHFCQUFhLEVBQWlDLENBQUM7QUFFbEUsSUFBTUMsT0FBTyxHQUFHLElBQUFDLHlCQUFXLEVBQUMsK0JBQStCLENBQUM7QUFDNUQsSUFBQUMsMkJBQWEsRUFBQ0YsT0FBTyxFQUFFLFVBQUNHLElBQUksRUFBSztFQUMvQkEsSUFBSSxDQUFDLHFEQUFxRCxFQUFFLFVBQUFDLElBQUEsRUFLdEQ7SUFBQSxJQUpKQyxLQUFLLEdBQUFELElBQUEsQ0FBTEMsS0FBSztNQUNMQyxJQUFJLEdBQUFGLElBQUEsQ0FBSkUsSUFBSTtNQUNKQyxJQUFJLEdBQUFILElBQUEsQ0FBSkcsSUFBSTtNQUNKQyxHQUFHLEdBQUFKLElBQUEsQ0FBSEksR0FBRztJQUVILElBQU1DLE1BQU0sR0FBRyxJQUFBQyxtQkFBTSxFQUNuQixJQUFBYixXQUFBLENBQUFjLEdBQUEsRUFBQ2hCLFFBQUEsV0FBTztNQUFDaUIsS0FBSyxFQUFFO1FBQUVDLE1BQU0sRUFBRTtVQUFFQyxJQUFJLEVBQUU7WUFBRUEsSUFBSSxFQUFFO1VBQVU7UUFBRTtNQUFFO0lBQUUsQ0FBRSxDQUM5RCxDQUFDO0lBQ0RULEtBQUssQ0FBQyxpQ0FBaUMsRUFBRSxZQUFNO01BQzdDVSxNQUFNLENBQUNOLE1BQU0sQ0FBQyxDQUFDTyxXQUFXLENBQUMsQ0FBQztNQUM1QkQsTUFBTSxDQUFDTixNQUFNLENBQUNRLFNBQVMsQ0FBQyxTQUFTLENBQUMsQ0FBQztJQUNyQyxDQUFDLENBQUM7RUFDSixDQUFDLENBQUM7QUFDSixDQUFDLENBQUMifQ==

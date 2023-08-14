@@ -1,0 +1,15 @@
+eca8ba8ff6c211e3efbba7206b3066bd
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports["default"] = void 0;
+var _regex = _interopRequireDefault(require("./regex.js"));
+function validate(uuid) {
+  return typeof uuid === 'string' && _regex["default"].test(uuid);
+}
+var _default = validate;
+exports["default"] = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJfcmVnZXgiLCJfaW50ZXJvcFJlcXVpcmVEZWZhdWx0IiwicmVxdWlyZSIsInZhbGlkYXRlIiwidXVpZCIsIlJFR0VYIiwidGVzdCIsIl9kZWZhdWx0IiwiZXhwb3J0cyJdLCJzb3VyY2VzIjpbInZhbGlkYXRlLmpzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSRUdFWCBmcm9tICcuL3JlZ2V4LmpzJztcblxuZnVuY3Rpb24gdmFsaWRhdGUodXVpZCkge1xuICByZXR1cm4gdHlwZW9mIHV1aWQgPT09ICdzdHJpbmcnICYmIFJFR0VYLnRlc3QodXVpZCk7XG59XG5cbmV4cG9ydCBkZWZhdWx0IHZhbGlkYXRlOyJdLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUFBLElBQUFBLE1BQUEsR0FBQUMsc0JBQUEsQ0FBQUMsT0FBQTtBQUVBLFNBQVNDLFFBQVFBLENBQUNDLElBQUksRUFBRTtFQUN0QixPQUFPLE9BQU9BLElBQUksS0FBSyxRQUFRLElBQUlDLGlCQUFLLENBQUNDLElBQUksQ0FBQ0YsSUFBSSxDQUFDO0FBQ3JEO0FBQUMsSUFBQUcsUUFBQSxHQUVjSixRQUFRO0FBQUFLLE9BQUEsY0FBQUQsUUFBQSJ9
